@@ -1,0 +1,44 @@
+/* style all h1, h2 and p elements */
+h1, h2, h3, h4, p {
+    text-align: center;
+    text-weight: bold;
+}
+
+
+body {
+    background-color: thistle;
+    color: #000000;
+    text-align: center;
+    font-size: 50px;
+}
+
+h1, h2 {
+    color: #e54b75;
+    font-size: 37px;
+}
+
+p {
+    color: #e54b75;
+    font-size: 30px;
+}
+
+h3{
+    color: #e54b75;
+    font-size: 15px;
+    text-align: center;
+}
+
+guessedLetters{
+    color: #e54b75;
+}
+
+h4{
+    color: #e54b75;
+    font-size: 15px;
+    text-align: center;
+}
+
+numGuesses{
+    color: #e54b75;
+    font-size: 50px;
+}

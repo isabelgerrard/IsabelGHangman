@@ -1,0 +1,43 @@
+<html>
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Hangman</title>
+</head>
+
+<body>
+
+<h1>HANGMAN</h1>
+<h2>Pick a letter! If you dare...</h2>
+
+<p>You have 8 guesses to guess all the letters of the unknown word. Every incorrect letter will risk the man's life.</p>
+
+<!--<div id=”myDiv”>Enter Your Name and Birthday!</div>-->
+
+<select id="difficulty">
+    <option value="1">Easy</option>
+    <option value="2">Medium</option>
+    <option value="2">Difficult</option>
+</select>
+
+<button onclick="startGame()">Start New Game</button>
+
+<div id="hangFrame"></div>
+
+<div id="wordSpaces"></div>
+
+<input type="text" id="guessedLetter" placeholder="Choose a letter" size="25">
+
+<input type="text" id="guessedWord" placeholder="Guess Entire Word" size="25">
+<button id="checkButton" onclick="handleGuess()">Risk It....</button>
+
+<h3>Guessed Letters Here</h3>
+
+<div id="guessedLetters"></div>
+
+<h4>Guesses Remaining...</h4>
+<div id="numGuesses"></div>
+
+
+</body>
+</html>
